@@ -15,7 +15,7 @@ Installed:\
 [Sleep](https://www.nexusmods.com/valheim/mods/261)\
 [Tombstone Tracker](https://www.nexusmods.com/valheim/mods/864)\
 [Wattle Fencing](https://www.nexusmods.com/valheim/mods/203)\
-[(needs: Custom Meshes https://www.nexusmods.com/valheim/mods/184 Custom Textures](https://www.nexusmods.com/valheim/mods/48 ))\
+(needs: [Custom Meshes] (https://www.nexusmods.com/valheim/mods/184) [Custom Textures](https://www.nexusmods.com/valheim/mods/48 ))\
 [Floors are Roofs](https://www.nexusmods.com/valheim/mods/1039)\
 [My Favorite Valheim](https://www.nexusmods.com/valheim/mods/923)\
 Toying with:\
