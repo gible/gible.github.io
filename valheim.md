@@ -15,7 +15,7 @@ Installed:\
 [Sleep](https://www.nexusmods.com/valheim/mods/261)\
 [Tombstone Tracker](https://www.nexusmods.com/valheim/mods/864)\
 [Wattle Fencing](https://www.nexusmods.com/valheim/mods/203)\
-(needs: [Custom Meshes] (https://www.nexusmods.com/valheim/mods/184) [Custom Textures](https://www.nexusmods.com/valheim/mods/48 ))\
+(needs: [Custom Meshes](https://www.nexusmods.com/valheim/mods/184), [Custom Textures](https://www.nexusmods.com/valheim/mods/48))\
 [Floors are Roofs](https://www.nexusmods.com/valheim/mods/1039)\
 [My Favorite Valheim](https://www.nexusmods.com/valheim/mods/923)\
 Toying with:\
@@ -23,7 +23,7 @@ Toying with:\
 [Slope Combat FIX](https://www.nexusmods.com/valheim/mods/727)\
 [Paddle Power](https://www.nexusmods.com/valheim/mods/305)\
 [NECROMANCY](https://www.nexusmods.com/valheim/mods/1003)\
-[(needs: JotunnLib](https://www.nexusmods.com/valheim/mods/507 ))\
+(needs: [JotunnLib](https://www.nexusmods.com/valheim/mods/507))\
 [Mount Up](https://www.nexusmods.com/valheim/mods/1091)\
 [Useful Paths](https://www.nexusmods.com/valheim/mods/438)\
 [Bone Arrows](https://www.nexusmods.com/valheim/mods/609)\
