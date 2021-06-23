@@ -4,3 +4,29 @@ body {
 	color: #222;
 }
 header { margin: 2em 1em 3em; }
+nav {
+  float:left;
+  clear:left;
+  margin:.5em;
+  border: 1px solid grey;
+  padding:.5em;
+}
+nav a {
+  text-decoration:none;
+}
+nav a:hover {
+  text-decoration:underline;
+}
+nav ul {
+  list-style:none;
+  margin:0;
+  padding-left:0.5em;
+}
+nav.pages > ul > li,
+nav h {
+  font-weight:bold;
+}
+section {display:flow-root}
+h1, div, p, hr, blockquote, pre, table {
+  margin: .7em auto;
+}
