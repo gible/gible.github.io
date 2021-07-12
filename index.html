@@ -1,19 +1,23 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Cyberstands</title>
 		<link rel="stylesheet" type="text/css" href="common.css">
 		<style>
+      header,section {
+				text-align: center;
+      }
 			h1, div, p, hr, blockquote, pre, table {
 				max-width:75em;
-				text-align: center;
 			}
 			img { vertical-align: text-bottom; }
 			q { quotes:none; }
-			em { white-space: nowrap; }
-			blockquote *, .chatalign { text-align: left; }
-			hr, .w30 { max-width: 25em; }
+			.chatalign { text-align: left; }
+			hr, .w25 { max-width: 25em; }
+			.w31 { max-width: 31em; }
+			.w50 { max-width: 60em; }
 			pre { font-family:inherit; }
 			em.b {
 				font-style: normal;
@@ -22,6 +26,20 @@
       table.chatalign td:first-child {
         text-align:right;
       }
+      .chatalign span {
+        display:inline-block;
+        width:10.7em;
+        height:1em;
+        text-align:right;
+      }
+      .chatalign q::before {
+        content: attr(author) ">\00a0";
+        display:inline-block;
+        height:1em;
+        text-align:right;
+      }
+      .chatalign.a11 q::before {width:11em;}
+      .chatalign.a8 q::before {width:8em;}
 		</style>
 	</head>
 	<body>
@@ -48,13 +66,13 @@
 			<hr/>
 			<p><q>Motivation and procrastination are just the same thing. Procrastination is the motivation to avoid what you need to do.</q> <em>- whisperingsage on <a href="https://www.reddit.com/r/getdisciplined/comments/1q96b5/i_just_dont_care_about_myself/cddu46z/">Reddit</a></em></p>
 			<hr/>
-			<blockquote>
+			<div class="chatalign">
 				<p>>>>> In the dog world, humans are elves that routinely live to 500+ years old.</p>
 				<p>>>> They live so long... but the good ones still bond with us for our entire lives.</p>
 				<p>>> These immortals are so kind, we must be nice to them.</p>
 				<p>> Now I am old. The fur around my muzzle is grey and my joints ache when we walk together. Yet she remains unchanged, her hair still glossy, her skin still fresh, her step still sprightly. Time doesn't touch her and yet I love her still.</p>
 				<p>For generations, he has guarded over my family. Since the days of my great, great, great, great, great, grandfather he has kept us safe. For so long we thought him immortal. But now I see differently, for just as my fur grows grey and my joints grow stiff, so too do his. He did not take in my children, but gave them away to his. I will be the last that he cares for. My only hope is that I am able to last until his final moments. The death of one of his kind is so rare. The ending of a life so long is such a tragedy. He has seen so much, he knows so much. I know he takes comfort in my presence. I only wish that I can give him this comfort until the end.</p>
-			</blockquote>
+			</div>
 			<p> <em>- <a href="img/2018-07-02.png">Joey meme</a></em></p>
 			<hr/>
 			<p><q>As we benefit from the inventions of others, we should be glad to share our own…freely and gladly</q> <em>- Benjamin Franklin in his autobiography.</em></p>
@@ -63,7 +81,7 @@
 			<hr/>
 			<p><q>Usually a person who needs very little, needs that little so very much.﻿</q> <em>- Steal Heart on Google+</em></p>
 			<hr/>
-			<blockquote class="w30">
+			<blockquote class="w25">
 				<p>Knock-knock.</p>
 				<p> - Who's there?</p>
 				<p>Under the Patriot Act, we don't have to tell you that.</p>
@@ -77,10 +95,10 @@
 			<hr/>
 			<p><q>Sometimes a democracy seems like a bad relationship that you just can't shake... you know you're being lied to, but we manage to convince ourselves over and over that a psychotic date is better than no date at all.</q> <em>- skuzzlebutt on <a href="https://yro.slashdot.org/comments.pl?sid=1154299&cid=27125961">Slashdot</a></em></p>
 			<hr/>
-			<pre>Some people are like a slinky ...
-Not really good for anything,
-But you still can't help but smile
-When you shove them down the stairs.</pre>
+			<div><p>Some people are like a slinky ...<br/>
+Not really good for anything,<br/>
+But you still can't help but smile<br/>
+When you shove them down the stairs.</p></div>
 			<p> <em>- unknown</em></p>
 			<hr/>
 			<p><q>If you find yourself going through Hell... KEEP GOING!!</q> <em class="b">- <a href="https://cdnangil.livejournal.com/profile"><img src="img/lj.png"/></a> <a href="https://cdnangil.livejournal.com/">cdnangil</a></em></p>
@@ -107,9 +125,11 @@ When you shove them down the stairs.</pre>
 			<hr/>
 			<p><q>Anyone who says high schoolers should read Moby Dick 1) Doesn't know any fifteen-year-olds; 2) Has never read Moby Dick; or 3) Has read Moby Dick, has a fifteen-year-old in the house, and wants to get even.</q> <em>- Susan Ohanian in Insults to the soul.</em></p>
 			<hr/>
-			<blockquote><pre class="w30">&lt;dman254&gt; so r we gonna talk about anything that has a point
-&lt;jv-home&gt; of course not. :P
-&lt;nougatmachine&gt; apparently dman254 is new to irc</pre></blockquote>
+			<div class="chatalign a8 w31">
+        <p><q author="dman254">so r we gonna talk about anything that has a point</q></p>
+        <p><q author="jv-home">of course not. :P</q></p>
+        <p><q author="nougatmachine">apparently dman254 is new to irc</q></p>
+      </div>
 			<p><em>- <a href="http://bash.org/">bash.org</a></em></p>
 			<hr/>
 			<p><q>Lead me not into temptation - I can find the way myself.</q> <em>- unknown</em></p>
@@ -131,23 +151,26 @@ When you shove them down the stairs.</pre>
 			<hr/>
 			<p><q>I read of a ritual to summon a demon. It involved some chanting while standing in the middle of a pentagram with a pound of burning hash at each point. My opinion of this is: "If you're standing in the middle of five pounds of burning hash and think you'll see a demon then, by God, you WILL see a demon."</q> <em>- Fenris</em></p>
 			<hr/>
-			<p><q>If anything in this book offends you, please feel free to buy and burn as many copies as you like. Volume discounts are available.</q> <em>- Richard Tucholka, Stalking the Night Fantastic</em></p>
+			<p><q>If anything in this book offends you, please feel free to buy and burn as many copies as you like. Volume discounts are available.</q></p>
+      <p></p><em>- Richard Tucholka, Stalking the Night Fantastic</em></p>
 			<hr/>
-			<table class="chatalign">
-<tr><td>ace-nyctophyle&gt;</td><td>any noun can become a verb if you don't care enough</td></tr>
-<tr><td>yupokaysuremhm&gt;</td><td>This point is invalid unless you use an example in your sentence</td></tr>
-<tr><td>ace-nyctophyle&gt;</td><td>I CAN SENTENCE HOW I WANT THANK</td></tr>
-<tr><td>yupokaysuremhm&gt;</td><td>BEAUTIFUL</td></tr>
-<tr><td>mysterytinyfox&gt;</td><td>you see thats why i love english</td></tr>
-<tr><td>ailithnight&gt;</td><td>I like to velociraptor around my house at 2 in the morning</td></tr>
-<tr><td>ace-nyctophyle&gt;</td><td>GOOD</td></tr>
-<tr><td>not-to-be-a-tea-but-brit&gt;</td><td>My head makes want to clothesline into a wall</td></tr>
-<tr><td>enquires-state-building&gt;</td><td>why do these make some semblance of sense 😧</td></tr>
-<tr><td>roseverdict&gt;</td><td>Beacause brains don't brain logically</td></tr>
-<tr><td>couldbeglorious&gt;</td><td>Brains do brain logically! But when english doesn't logic englishly, brain brains by itself to logic that english !</td></tr>
-<tr><td>swampxwitchxhattie&gt;</td><td>I hate that this makes sense</td></tr>
-</table>
-			<p><em>- <a href="https://swampxwitchxhattie.tumblr.com/post/182493141523/any-noun-can-become-a-verb-if-you-dont-care">Tumblr thread</a></em></p>
+      <div class="chatalign a11 w50">
+        <p><q author="ace-nyctophyle">any noun can become a verb if you don't care enough</q></p>
+        <p><q author="yupokaysuremhm">This point is invalid unless you use an example in your sentence</q></p>
+        <p><q author="ace-nyctophyle">any noun can become a verb if you don't care enough</q></p>
+        <p><q author="yupokaysuremhm">This point is invalid unless you use an example in your sentence</q></p>
+        <p><q author="ace-nyctophyle">I CAN SENTENCE HOW I WANT THANK</q></p>
+        <p><q author="yupokaysuremhm">BEAUTIFUL</q></p>
+        <p><q author="mysterytinyfox">you see thats why i love english</q></p>
+        <p><q author="ailithnight">I like to velociraptor around my house at 2 in the morning</q></p>
+        <p><q author="ace-nyctophyle">GOOD</q></p>
+        <p><q author="not-to-be-a-tea-but-brit">My head makes want to clothesline into a wall</q></p>
+        <p><q author="enquires-state-building">why do these make some semblance of sense 😧</q></p>
+        <p><q author="roseverdict">Beacause brains don't brain logically</q></p>
+        <p><q author="couldbeglorious">Brains do brain logically! But when english doesn't logic englishly, brain brains by itself to logic that english !</q></p>
+        <p><q author="swampxwitchxhattie">I hate that this makes sense</q></p>
+      </div>
+        <p><em>- <a href="https://swampxwitchxhattie.tumblr.com/post/182493141523/any-noun-can-become-a-verb-if-you-dont-care">Tumblr thread</a></em></p>
 			<hr/>
 			<p><q>Why should I love God? He strung up his only son like a side of veal. I shudder to think what he'd do to me.</q> <em>- Marquis DeSade</em></p>
 			<hr/>
@@ -161,7 +184,8 @@ When you shove them down the stairs.</pre>
 			<hr/>
 			<p><q>There are some people who are so irritating that merely ignoring them is somehow unsatisfactory; every fibre in your body screams out at you to grab them by the throat with both hands, shake them until their teeth rattle, and shout in their face "We're not fucking interested, understand? And you're a waste of space!". Sadly, my newsreader doesn't seem to implement this feature.</q> <em>- Tequila Rapide in alt.peeves </em></p>
 			<hr/>
-			<p><q>Computer games don't affect kids. I mean if Pacman affected us as kids, we'd all run around in a darkened room munching pills and listening to repetitive music.</q> <em>- Stolen from fer0l</em></p>
+			<p><q>Computer games don't affect kids. I mean if Pacman affected us as kids, we'd all run around in a darkened room munching pills and listening to repetitive music.</q></p>
+      <p><em>- Stolen from fer0l</em></p>
 			<hr/>
 			<p><q>Meddle not in the affairs of dragons for thou art indeed tasty and crunchy and go well with ketchup!</q> <em>- Stolen from PapaBear</em></p>
 			<hr/>
@@ -177,9 +201,9 @@ When you shove them down the stairs.</pre>
 			<hr/>
 			<p><q>Life is not measured by the number of breaths we take, but by the moments that take our breath away.</q> <em>- IRC quit message</em></p>
 			<hr/>
-			<pre>In the beginning there was the word, and the word was "No."
-From this sprang desire.
-After that, everyone's story is different.</pre>
+			<p>In the beginning there was the word, and the word was "No."<br/>
+From this sprang desire.<br/>
+After that, everyone's story is different.</p>
 			<p> <em>- Gible Fog</em></p>
 		</section>
 	</body>
