@@ -10,6 +10,7 @@ nav {
   margin:.5em;
   border: 1px solid grey;
   padding:.5em;
+  width:10em;
 }
 nav a {
   text-decoration:none;
@@ -29,4 +30,9 @@ nav h {
 section {display:flow-root}
 h1, div, p, hr, blockquote, pre, table {
   margin: .7em auto;
+}
+img#usbicon {
+  width:1.5em;
+  height:1.5em;
+  vertical-align:middle;
 }
