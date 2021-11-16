@@ -28,3 +28,4 @@ Toying with:\
 [Useful Paths](https://www.nexusmods.com/valheim/mods/438)\
 [Bone Arrows](https://www.nexusmods.com/valheim/mods/609)\
 [Better Archery](https://www.nexusmods.com/valheim/mods/348)
+<li>I/o <img id="usbicon" src="img/usb.svg"/></li>
